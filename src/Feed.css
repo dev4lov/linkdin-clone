@@ -1,0 +1,44 @@
+.feed {
+    flex: 0.6;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.findArea {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+}
+
+.searchContainer > form {
+    flex: 1;
+    display: flex;
+    margin-left: 10px;
+}
+
+.searchContainer > form > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.searchContainer > form > button {
+    display: none;
+}
+
+.searchOption {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+}

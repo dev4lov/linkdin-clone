@@ -1,0 +1,10 @@
+.icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon > h4 {
+    margin-left: 10px;
+    color: gray;
+}

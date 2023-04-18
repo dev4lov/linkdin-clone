@@ -1,0 +1,47 @@
+.widgets {
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    margin-left: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news_head {
+    display: flex;
+    margin-top: 10px;
+}
+
+.news_report > h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.news_report {
+    flex: 1;
+    cursor: pointer;
+}
+.news_report > p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.widget_point {
+    color: #0177b7;
+    margin-right: 5px;
+}
+
+.widget_point > .MuiSvgIcon-root {
+    font-size: 15px;
+}
+

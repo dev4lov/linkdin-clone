@@ -1,0 +1,44 @@
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.aboutUser {
+    border: none;
+    margin-left: 5px;
+}
+
+.post {
+    border: none;
+}
+
+.post > p {
+    padding-top: 10px;
+}
+
+.aboutUser > h4 {
+    color: black;
+}
+
+.aboutUser > p {
+    font-size: 12px;
+}
+
+.postOption {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.postContainer {
+    margin-top: 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.message {
+    margin-top: 10px;
+}

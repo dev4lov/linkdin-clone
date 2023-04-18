@@ -1,0 +1,87 @@
+.sidebar {
+    position: sticky;
+    top: 80px;
+    float: 0.2;
+    text-align: center;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.sidebar_Top {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.sidebar_Top > img {
+    width: 100%;
+    height: 60px;
+    margin-bottom: -25px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.dp {
+    margin: auto;
+    border: 2px solid white;
+}
+
+.about {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.about > h4 {
+    color: gray;
+    font-size: 12px;
+}
+
+.stats {
+    padding: 10px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.stat {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.stat > p {
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.statNum {
+    font-weight: bold;
+    color: #0072b1 !important;
+}
+
+.sidebar_Bottom {
+    text-align: left;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.recentItem {
+    display: flex;
+    cursor: pointer;
+    color: gray;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.recentItem:hover {
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.hash {
+    margin-left: 10px;
+    margin-right: 10px;
+}
